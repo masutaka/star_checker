@@ -76,7 +76,7 @@ const starReportTemplateHTML = `
     <p>ページURL：<b>{{.Uri}}</b></p>
     <p>スター総計：<b>{{.Star_count}}</b></p>
     <form action="/check" method="post">
-      <div><input type="text" name="target_url" /></div>
+      <div><input type="text" name="target_url" value="http://masutaka.net/chalow/" size="50" /></div>
       <div><input type="submit" value="Check Star Count"></div>
     </form>
   </body>
